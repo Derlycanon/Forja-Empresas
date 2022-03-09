@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+*{
+    margin: 3%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Volver{
+    width: 10%;
+    height: 16%;
+    background: rgb(59, 62, 224);
+    border: #017bab;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    position:relative;
+    font-family: 'Poppins', sans-serif;  
+}
+
+.form-login{
+    width: 400px;
+    height: 450px;
+    background: hsla(182, 67%, 80%, 0.966);
+    margin: auto;
+    box-shadow: 7px 13px 37px hsl(0, 0%, 0%);
+    padding: 20px 30px;
+    border-top: 4px solid #ace4f5;
+    color: white;
+    border-radius: 15px;
+}
+
+.form-login img{
+    height: 80px;
+    margin-bottom: 30px;
+    font-size: 20px;
+
+}
+
+.controls{
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10 px;
+}
+
+.user{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.pass{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    justify-content: center;
+}
+
+.buttons{
+    width: 35%;
+    height: 8%;
+    background: rgb(236, 132, 12);
+    border: #017bab;
+    color: white;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    border: #017bab;
+}
+
+.form-login p{
+    height: 30px;
+    text-align: center;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.form-login a{
+    color: black;
+    text-decoration:underline;
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+
+

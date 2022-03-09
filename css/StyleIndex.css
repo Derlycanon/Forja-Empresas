@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --rufous-color: #A40101;
+    --viridian-color:#2CA3AB;
+    --purple-color: rgb(117, 41, 149);
+    --gray-color: rgba(200, 198, 201,0.7);
+    --silver-color: #C4C4C4;
+    --safetyorange-color: #F3610E;
+    --spacecadet-color: #1D1B45;
+    --black-color: #000000;
+    --white-color: #ffffff;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo{
+    padding: 65px;
+    
+}
+
+.ubicacion{
+    padding: 40px;
+}
+
+.telefono{
+    padding: 40px;
+}
+
+.boton1{
+    padding: 40px;
+}
+
+.iniciar1{
+    font-weight: 600;
+    background: var(--spacecadet-color);
+    border-radius: 20px;
+    border-color: none;
+    border-style: solid;
+    padding: 0.1rem 1rem;
+    cursor: pointer;
+    margin-right: 5rem;
+    color: var(--white-color);
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+
+.linea{
+    justify-content: flex-end;
+}
+
+.banner{
+    min-height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner h1, h2{
+    font-size: 3rem;
+    color: var(--white-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.iniciar2{
+    font-weight: 600;
+    background: var(--spacecadet-color);
+    border-radius: 20px;
+    border-color: none;
+    border-style: solid;
+    padding: 0.1rem 1rem;
+    cursor: pointer;
+    margin-right: 5rem;
+    color: var(--white-color);
+}
+
+#signos{
+    display: flex;
+}
+
+.sintomas{
+    background-image: url(..//img/4.\ covid.jpeg);
+    flex-basis: 70%;
+    padding: 30px;
+    image-resolution: var(--gray-color);
+
+}
+
+#quehacer{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+}
+
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--white-color);
+    font-size: 14px;
+    background-color: var(--black-color);
+}
+
+p{
+    color: var(--white-color);
+    text-align: justify;
+    font-size: 14px;
+    background-color: var(--black-color);
+}
