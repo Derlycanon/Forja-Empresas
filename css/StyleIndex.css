@@ -2,14 +2,13 @@
 
 
 *{
-    box-sizing: border-box;
+  margin: 0;  
+  padding: 0;
 }
 
 :root{
     --rufous-color: #A40101;
     --viridian-color:#2CA3AB;
-    --purple-color: rgb(117, 41, 149);
-    --gray-color: rgba(200, 198, 201,0.7);
     --silver-color: #C4C4C4;
     --safetyorange-color: #F3610E;
     --spacecadet-color: #1D1B45;
@@ -20,24 +19,29 @@
 .header{
     display: flex;
     flex-direction: row;
-
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .logo{
-    padding: 65px;
-    
+    padding: 30px;
+    margin-right: 0px;
 }
 
-.ubicacion{
-    padding: 40px;
+.vacunacion{
+    margin: 20px;
+    padding-top: 0px;
 }
 
-.telefono{
-    padding: 40px;
+.telefono, .ubicacion{
+    margin: 1px;
+    padding: 10px;
 }
 
-.boton1{
-    padding: 40px;
+ .boton1{
+    margin: 5px;
+    padding-top: 40px;
+    padding-left: 5px;
 }
 
 .iniciar1{
@@ -48,8 +52,12 @@
     border-style: solid;
     padding: 0.1rem 1rem;
     cursor: pointer;
-    margin-right: 5rem;
     color: var(--white-color);
+}
+
+.linea{
+    padding-left: 380px;
+    margin: 0px;
 }
 
 body{
@@ -57,23 +65,19 @@ body{
     font-size: 16px;
 }
 
-.linea{
-    justify-content: flex-end;
-}
-
 .banner{
-    min-height: auto;
+    max-width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-.banner h1, h2{
+h1, h2{
     font-size: 3rem;
     color: var(--white-color);
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-80%, -50%);
 }
 
 .iniciar2{
@@ -84,11 +88,11 @@ body{
     border-style: solid;
     padding: 0.1rem 1rem;
     cursor: pointer;
-    margin-right: 5rem;
+    margin-left: 5rem;
     color: var(--white-color);
 }
 
-#signos{
+.signos{
     display: flex;
 }
 
@@ -100,7 +104,7 @@ body{
 
 }
 
-#quehacer{
+.quehacer{
     display: flex;
     justify-content: flex-end;
     text-align: right;
