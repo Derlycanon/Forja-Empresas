@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --rufous-color: #A40101;
+    --viridian-color:#2CA3AB;
+    --silver-color: #C4C4C4;
+    --safetyorange-color: #F3610E;
+    --spacecadet-color: #1D1B45;
+    --black-color: #000000;
+    --white-color: #ffffff;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    background-color: var(--spacecadet-color);
+    padding-top: 100px;
+}
+
+.sesion{
+    color: var(--black-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sesion img{
+    max-width: 60px;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid var(--safetyorange-color);
+}
+
+#dashboard{
+    display: flex;
+}
+
+.menu1{
+    padding-top: 90px;
+    flex-basis: 22.25%;
+    background-color: var(--spacecadet-color);
+    height: 60vh;
+}
+
+.menu1 ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menu1 a{
+    text-decoration: none;
+    color: var(--silver-color);
+    padding: 1rem;
+    display: block;
+}
+
+/*.menu1 a:hover{
+    background-color: var(--safetyorange-color);
+    border: 3px solid var(--spacecadet-color);
+    padding-left: 50px;
+    transition: all 2s;
+}*/
+
+.pacientes{
+    border-radius: 5%;
+    height: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    
+    border: solid #F3610E;
+}
+
+.contenido p{
+    text-align: center;
+    text-decoration: solid;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    color: var(--safetyorange-color);
+    padding-left: 120%;
+}
+
+.bienvenidos{
+    width: 218px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.img__guerreros{
+    display: flex;
+    padding-left: 250%;
+    color: var(--black-color);
+    padding-top: 1.2%; 
+}
+
+.img__franja{
+    padding-top: 1%;
+    width: 1px;
+}
+
+/*.contenido img{
+    padding-top: 20%;
+    padding-left: 60%;
+}*/
+
+
+
+
+
+

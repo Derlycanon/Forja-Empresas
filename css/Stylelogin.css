@@ -11,7 +11,7 @@
 
 .Volver{
     width: 10%;
-    height: 16%;
+    height: 30%;
     background: rgb(59, 62, 224);
     border: #017bab;
     color: white;
@@ -19,11 +19,17 @@
     border-radius: 5px;
     position:relative;
     font-family: 'Poppins', sans-serif;  
+    top: 50%;
+    left: 26%;
+    transform: translate(290%);
+    cursor: pointer; 
 }
 
 .form-login{
-    width: 400px;
-    height: 450px;
+    width: 450px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
     background: hsla(182, 67%, 80%, 0.966);
     margin: auto;
     box-shadow: 7px 13px 37px hsl(0, 0%, 0%);
@@ -31,27 +37,40 @@
     border-top: 4px solid #ace4f5;
     color: white;
     border-radius: 15px;
+    justify-content: center;
+    background: linear-gradient(
+    to top,
+    white 0%,
+    white 65%,
+    paleturquoise 50%,
+    paleturquoise 100%
+    );
 }
+
 
 .form-login img{
     height: 80px;
     margin-bottom: 30px;
     font-size: 20px;
-
 }
 
 .controls{
-    width: 100%;
+    width: 90%;
+    height: 50px;
     border: 1px solid #017bab;
     margin-bottom: 15px;
     padding: 11px 10 px;
+    border-radius: 18px;
+    align-items: center;
 }
 
 .user{
     color: black;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
+    text-align: center;
     justify-content: center;
+    
 }
 
 .pass{
@@ -59,17 +78,23 @@
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     justify-content: center;
+    padding-left: 105px;
 }
 
 .buttons{
     width: 35%;
-    height: 8%;
+    height: 10%;
     background: rgb(236, 132, 12);
     border: #017bab;
     color: white;
     margin-bottom: 16px;
     border-radius: 5px;
     border: #017bab;
+    font-family: 'Poppins', sans-serif;  
+    top: 50%;
+    left: 26%;
+    transform: translate(90%);
+    cursor: pointer; 
 }
 
 .form-login p{

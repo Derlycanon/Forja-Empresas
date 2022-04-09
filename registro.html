@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro Usuarios</title>
+
+    <link rel="stylesheet" href="css/registro.css">
+    <link rel="icon" href="img/icon.png">
+
+</head>
+
+<header class="header">
+    <div class="logo">
+        <img class="img__logo" src="img/0. logoforja.png" alt=" logo Forja">
+        <img class="img__franja" src="img/12. franja.png">
+    </div>  
+</header>
+
+<body>
+    <div class="tittle">
+        <p>REGISTRO USUARIO NUEVO</p>
+    </div>
+    <table>
+        <table class="t__registro" border="1px" bgcolor="white" cellspacing="5" cellpadding="5">
+            <tr>
+                <th <label for="date"></label>
+                <input type="date" name="date" id="date" min="2000-01-01"  max="2023-01-01" placeholder="dd/mm/aaaa"></th>
+                <th ><input name="nombre" id="nombre" type="text" placeholder="N registro" size="20" autocomplete="on"></th>
+            
+            </tr>
+
+            <tr>
+                <th bgcolor="#2CA3AB" colspan="2"> DATOS DEL PACIENTE </th>
+            </tr>
+
+            <tr>
+                <th ><input name="nombre" id="nombre" type="text" placeholder="Escribe tu nombre" size="30" autocomplete="on"></th>
+
+                <th ><input name="apellidos" id="apellidos" type="text" placeholder="Apellidos" size="20" autocomplete="on"></th>
+            </tr>
+
+            <tr>
+                <th ><input name="nombre" id="nombre" type="text" placeholder="Número de identificación" size="30" autocomplete="on"></th>
+
+                <th >
+                    <select name="documento" id="documento">
+                        <option value="0" selected> Tipo de documento </option>
+                        <option value="1">Cédula de ciudadania</option>
+                        <option value="1">Cédula Extranjería</option>
+                        <option value="1">Otro</option>            
+                    </select> 
+                </th>
+            </tr>
+
+            <tr>
+                <th <label for="date"></label>
+                    <input type="date" name="date" id="date" min="2000-01-01"  max="2023-01-01" placeholder="dd/mm/aaaa"></th>
+
+                <th ><input name="nombre" id="nombre" type="text" placeholder="Edad" size="20" autocomplete="on"></th>
+            </tr>
+
+
+            <tr>
+                <th bgcolor="#2CA3AB"colspan="2"> INFORMACIÓN DE CONTACTO </th>
+            </tr>
+
+            <tr>
+                <th >
+                    <select name="departamento" id="departamento">
+                        <option value="0" selected> Departamento de Residencia </option>
+                        <option value="1">Cundinamarca</option>
+                        <option value="1">Antioquia</option>
+                        <option value="1">Valle del Cauca</option>
+                        <option value="1">Santander</option>                
+                
+                    </select> 
+                </th>
+
+                <th >
+                    <select name="municipio" id="municipio">
+                        <option value="0" selected> Municipio de Residencia </option>
+                        <option value="1">Agua de Dios</option>
+                        <option value="1">Bello</option>
+                        <option value="1">Yumbo</option>
+                        <option value="1">Floridablanca</option>                
+                
+                    </select> 
+                </th>
+            </tr>
+
+            <tr>
+                <th ><input name="direccion" id="direccion" type="text" placeholder="Dirección" size="30" autocomplete="on"></th>
+
+                <th ><input name="email" id="email" type="email" placeholder="Correo" size="20" autocomplete="on"></th>
+            </tr>
+
+            <tr>
+                <th ><input name="telefono" id="telefono" type="number" placeholder="Teléfono fijo" size="30" autocomplete="on"></th>
+
+                <th ><input name="celular" id="celular" type="number" placeholder="Celular" size="20" autocomplete="on"></th>
+            </tr>
+
+
+            <tr>
+                <th bgcolor="#2CA3AB" colspan="3"> ESTADO DE SALUD </th>
+            </tr>
+
+            <tr>
+                <th >
+                    <select name="salud" id="salud">
+                        <option value="0" selected> Preexistencias </option>
+                        <option value="1">Cundinamarca</option>
+                        <option value="1">Antioquia</option>
+                        <option value="1">Valle del Cauca</option>
+                        <option value="1">Santander</option>                
+                
+                    </select> 
+                </th>
+
+                <th >
+                    <select name="discapacidad" id="discapacidad">
+                        <option value="0" selected> Discapacidad </option>
+                        <option value="1">Agua de Dios</option>
+                        <option value="1">Bello</option>
+                        <option value="1">Yumbo</option>
+                        <option value="1">Floridablanca</option>                         
+                    </select> 
+                </th>       
+            </tr>
+        </table>
+    </table>
+</body>
+
+<footer class="footer">
+    <p>2022 FORJAEMPRESAS</p>
+</footer>
+
+</html>
