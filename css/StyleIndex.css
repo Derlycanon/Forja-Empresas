@@ -25,10 +25,8 @@ header{
 
 .logo{
     display: flex;
-    padding: 30px;
+    padding: 10px;
     margin-right: 0px;
-    max-width: 270px;
-    width: 100%;
     justify-content: space-between;
 }
 
@@ -224,7 +222,7 @@ h6{
     }
 
     .banner{
-        max-width: 600px;
+        max-width: 630px;
         width: 500%;
     }
 
@@ -237,7 +235,7 @@ h6{
         display: flex;
         flex-direction: column;
         justify-content: space-between;    
-        max-width: 540px;
+        max-width: 570px;
         width: 500%;
     }
 
@@ -248,23 +246,21 @@ h6{
     }
 
     .footer{
-        width: 187%;
+        width: 197%;
     }
 
     p{
         text-align: left;
-        font-size: 14px;
-        background-color: var(--black-color);
         margin: 10px;
         padding: 10px;
-        max-width: 555px;
+        max-width: 590px;
         width: 300%;
     }
 
     h6{
         margin: 10px;
         padding: 10px;
-        max-width: 560px;
+        max-width: 590px;
         width: 300%;
     }
 }
@@ -293,7 +289,7 @@ h6{
     }
 
     .banner{
-        max-width: 770px;
+        max-width: 760px;
         width: 200%;
     }
 
@@ -322,7 +318,7 @@ h6{
         display: flex;
         flex-direction: column;
         justify-content: space-between;    
-        max-width: 710px;
+        max-width: 700px;
         width: 150%;
     }
 
@@ -333,19 +329,19 @@ h6{
     }
 
     .footer{
-        width: 100%;
+        width: 99%;
     }
 
     p{
         margin: 10px;
         padding: 10px;
-        max-width: 730px;
+        max-width: 710px;
         width: 200%;
     }
 
     h6{
         padding: 10px;
-        max-width: 730px;
+        max-width: 710px;
         width: 300%;
     }
 }
@@ -355,13 +351,9 @@ h6{
     .header{
         display: flex;
         flex-direction:row;
-        max-width: 1000px;
-        width: 80%;
-        padding-left: 0.3px;
-    }
-
-    .logo{
-        margin: 0px;
+        max-width: 200px;
+        width: 100%;
+        margin-left: 200px;
     }
 
     .linea{
@@ -371,7 +363,7 @@ h6{
     }
 
     .banner{
-        max-width: 1024px;
+        max-width: 760px;
         width: 100%;
     }
 
@@ -402,32 +394,31 @@ h6{
     }
 
     .franja{
-        max-width: 200px;
+        max-width: 100px;
         width: 5%;
         margin: 0px;
         padding-top: 0px;
     }
 
     .compartido{
-        max-width: 965px;
+        max-width: 700px;
         width: 100%;
     }
 
     .footer{
-        background-color: var(--silver-color);
-        width: 100%;
+        width: 74%;
     }
     
     p{
         margin: 10px;
         padding: 10px;
-        max-width: 985px;
+        max-width: 710px;
         width: 300%;
     }
     
     h6{
         padding: 10px;
-        max-width: 985px;
+        max-width: 710px;
         width: 300%;
     }
     
@@ -435,14 +426,14 @@ h6{
 
 @media screen and (min-width:1200px){
     .header{
-        max-width: 800px;
-        width: 100%;
         display: flex;
         flex-direction:row;
-        padding-right: 30px;
+        max-width: 200px;
+        width: 100%;
+        margin-left: 200px;
     }
 
     .footer{
-        width: 85%;
+        width: 63%;
     }
 }
