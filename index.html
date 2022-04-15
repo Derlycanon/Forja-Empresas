@@ -5,93 +5,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
-    
-    <link rel="stylesheet" href="css/StyleIndex.css">
-    <link rel="icon" href="img/icon.png">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3377be9db6.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="assets/img/icon.png">
+    <link rel="stylesheet" type="text/css" href="assets/css/StyleIndex.css"> 
+   
 </head>
 
-<header class="header">
-    <div class="logo">
-        <img src="img/0. logoforja.png">
-    </div>
+<body>  
+    <header>
+        <section id="general" class="header">
+            <div class="telefono">
+                <img src="assets/img/TELEFONO_ICO_DESK.png"> +57 1744 7050
+            </div>
 
-    <div class="vacunacion">
-        <img src="img/vacunacion.jpg">
-    </div>
+            <div class="ubicacion">
+                <img src="assets/img/POINT_ICO_DESK.png"> Carrera 21 #99-71  Segundo piso Bogotá-Colombia
+            </div>
 
-    <div class="telefono">
-        <img src="img/TELEFONO_ICO_DESK.png"> +57 1744 7050
-    </div>
+            <div class="boton1">
+                <button class="iniciar1"><a href="./views/login.html"><i class="fa-solid fa-user"></i></a>Iniciar sesión</button>
+            </div>
+
+            <div class="grid-item6"></div>
+
+            <div class="logoforja">
+                <img src="assets/img/0. logoforja.png" class="logo__img">
+                <i class="fa-solid fa-syringe fa-icon"></i>
+            </div>
+
+            <div class="linea">
+                <img src="assets/img/1. linea.png" class="linea__img">
+            </div>
+        </section>
+        <!--<div class="vacunacion">
+            <img src="img/vacunacion.jpg">
+        </div>-->
+    </header>
+
+        <section class="banner">
+            <div class="banner__in">
+                <h2> Unidos ganaremos la batalla</h2>
+                <h1> Covid-19</h1> 
+                <button class="iniciar2"><a href="./views/login.html">Iniciar sesion<i class="fa-solid fa-user"></i></a></button>  
+            </div>    
+        </section> 
+
+        <section class="franja__img"></section>
     
-    <div class="ubicacion">
-        <img src="img/POINT_ICO_DESK.png"> Carrera 21 #99-71  Segundo piso Bogotá-Colombia
-    </div>
 
-    <div class="boton1">
-        <button class="iniciar1">Iniciar sesión</button>
-    </div>
-
-</header>
-
-<body>
-    <div class="linea">
-        <img src="img/1. linea.png">
-    </div>
-
-    <main>
-        <div class="banner">
-            <div class="medico">
-                <img src="img/2. medico.png" alt="medico">
-                <h1> Unidos ganaremos la batalla</h1>
-                <h2> Covid-19</h2> 
-                <button class="iniciar2"> Iniciar sesión</button>      
-            </div>
-    </main> 
-
-    <div class="franja">
-        <img src="img/12. franja.png" alt="franja">
-    </div>
-
-    <div class="compartido">
-        <div class="cuadro1">
-            
-            <div class="sintomas">
-                <img class="flecha" src="img/7. flechaderecha.svg"> <h3> Signos compatibles con Covid-19</h3>
-                <h4> Fiebre de 37.5º o más.</h4>
-                <h4> Dolor de garganta.</h4>
-                <h4> Tos y dificultad respiratoria.</h4>
-                <h4> Dolor de cabeza.</h4>
-                <h4> Vómito y diarrea.</h4>
+        <section class="compartido">
+            <div class="cuadro1">            
+                <h3><img class="flecha" src="./assets/img/7. flechaderecha.svg">Signos compatibles con Covid-19</h3>
+                <ul>
+                    <li><i class="fa-solid fa-check fa-checkMargin fa-lg"></i>Fiebre de 37.5° o mas</li>
+                    <li><i class="fa-solid fa-check fa-checkMargin fa-lg"></i>Dolor de garganta</li>
+                    <li><i class="fa-solid fa-check fa-checkMargin fa-lg"></i>Tos y dificultad respiratoria</li>
+                    <li><i class="fa-solid fa-check fa-checkMargin fa-lg"></i>Dolor de cabeza</li>
+                    <li><i class="fa-solid fa-check fa-checkMargin fa-lg"></i>Vómito y diarrea</li>
+                </ul>
             </div>
 
-        </div>
-
-        <div class="cuadro2">
-                   
-            <div class="quehacer">
-                <img class="question" src="img/8. question-circle-solid.svg">
-                <h3>¿Qué hacer?</h3>
-
-                <h4> Si diagnósticas más de dos sintomas, aisla de inmediato al paciente y procede a realizar cuanto antes el hisopado para confirmar o descartar el Covid-19 </h4>
+            <div class="cuadro2">
+                <h3><img class="question" src="./assets/img/8. question-circle-solid.svg">¿Qué hacer?</h3>
+                <p> Si diagnósticas más de dos sintomas, aisla de inmediato al paciente y procede a realizar cuanto antes el hisopado para confirmar o descartar el Covid-19 </p>            
+                <img src="./assets/img/5. oms.png" class="oms">
+                <a href="#">Curso online nuevo coronavirus OMS</a>    
             </div>
-
-            <div>
-                <img class="oms" src="img/5. oms.png">
-                <p class="link"><a href="#">Curso online nuevo coronavirus OMS</a></p>
-            </div>
-
-        </div>
-
-    </div>   
+        </section>   
 </body>
 
 <footer class="footer">
-    <p>Enfermedad por coronavirus (COVID-19): Accesibilidad y asignación de las vacunas</p>
-    <p>Seguridad de las vacunas contra el COVID-19  CDC</p>
-    <p>Luego de la vacunación ¿que sintomas se pueden presentar?</p>
-    <p>Lineamiento tecnico para la gestion de residuos de vacunacion Covid-19.</p>
-    <p>Recomendaciones generales al tener contacto con personas infectadas</p>
+    <p><a href="#">Enfermedad por coronavirus(COVID-19): Accesibilidad y asignación de las vacunas</a></p>
+    <p><a href="#">Seguridad de las vacunas contra el COVID-19 | CDC</a></p>
+    <p><a href="#">Luego de la vacunación ¿qué síntomas se puede presentar?</a></p>
+    <p><a href="#">Lineamiento técnico para la gestión de residuos de vacunación - Covid-19</a></p>
+    <p><a href="#">Recomendaciones generales al tener contacto con personas infectadas</a></p>
     <h6>2022 FORJAEMPRESAS</h6>
 </footer>
 </html>

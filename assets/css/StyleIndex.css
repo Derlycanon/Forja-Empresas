@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin: 0;  
+  padding: 0;
+}
+
+:root{
+    --rufous-color: #A40101;
+    --viridian-color:#2CA3AB;
+    --silver-color: #C4C4C4;
+    --safetyorange-color: #F3610E;
+    --spacecadet-color: #1D1B45;
+    --black-color: #000000;
+    --white-color: #ffffff;
+}
+
+.header{
+    padding: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "item1 item2"
+    "item5 item5"  
+    "item3 item3";  
+}
+
+h1, h2, h3{
+    font-family: 'Poppins', sans-serif;
+    color: var(--dark-color);
+}
+
+p{
+    color: var(--dark-color);
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+    .telefono{
+        grid-area: item1;
+        display: flex;
+        margin: 1rem 2rem 0 2rem;
+        align-items: center;
+    }
+
+    .ubicacion{
+        grid-area: item2;
+        display: flex;
+        margin: 1rem 1rem 0 1rem;
+        align-items: center;
+    }
+
+    .logoforja{
+        display: flex;
+        grid-area: item3;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+    }
+
+    .linea{
+        grid-area: item5;
+    }
+
+    .grid-item6{
+        grid-area: item6;
+    }
+
+    .iniciar1{
+        display: flex;
+        align-items: center;
+        width: 140px;
+        height: 2rem;
+        background-color: var(--spacecadet-color);
+        margin-top: 2rem;
+        margin-left: 4.6rem;
+        padding-top: -10px;
+        padding-left: 12px;
+        border-style: none;
+        border-radius: 15rem;
+        text-align: center;
+        cursor: pointer;
+        color: var(--white-color);
+        font-size: 12px;
+        transition-duration: 0.1s;
+    }
+
+    .iniciar1 i{
+        padding: 1px 5px;
+        color: var(--white-color);
+    }
+
+    .iniciar1 a{
+        margin: 20px 0;
+        padding: 1px 5px;
+        text-decoration: none;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    .iniciar1:hover{
+        box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.61), 0 5px 5px 0 rgba(0,0,0,0.19);
+        cursor: pointer;
+    }
+
+    .icono{
+        display: flex;
+        flex-direction: row;
+        padding: 0.1rem 0.6rem 1rem 3rem;
+    }
+
+    /*.iniciar1 i{
+        padding: -1px 8 px;
+        color: #ffffff;
+    }*/
+
+    .logo__img{
+        padding-left: 10px;
+        padding-right: 1rem;
+        max-height: 40vw;
+        height: 100%;
+    }
+
+    .linea__img{
+        width: 80%;
+        padding-left: 100px;
+    }
+
+    .fa-icon{
+        /*jeringa*/
+        color: rgb(220, 118, 51 );
+        font-size: 50px;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+    }
+
+    .banner{
+        background-image: url("../img/2.\ medico.png");
+        background-repeat: no-repeat;    
+        background-size: cover;
+        padding: 1rem 1rem 1rem 1rem;
+    }
+
+    .banner__in h2{
+        font-size:3.7vw;
+        font-weight: 300;
+        color: rgb(202, 110, 48);
+        letter-spacing: -5px;
+        padding-left: 3rem;
+        width: 10rem;
+        text-align: center;
+    }
+
+    .banner__in h1{
+        font-size:3vw;
+        font-weight: 400;
+        padding: 0 6.5rem;
+        margin-top: 1vw;
+    }
+
+    .iniciar2{
+        display: flex;
+        align-items: center;
+        width: 120px;
+        height: 2rem;
+        background-color: var(--spacecadet-color);
+        margin-top: 2rem;
+        margin-left: 4.6rem;
+        padding-top: -10px;
+        padding-left: 12px;
+        border-style: none;
+        border-radius: 15rem;
+        text-align: center;
+        cursor: pointer;
+        transition-duration: 0.1s;
+    }
+
+    .iniciar2 i{
+        padding: 1px 8px;
+        color: var(--white-color);
+    }
+
+    .iniciar2 a{
+        margin:20px 0;
+        text-decoration: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .iniciar2:hover{
+        box-shadow: 0 5px 16px 0 rgba(0, 0, 0, 0.61), 0 5px 5px 0 rgba(0,0,0,0.19);
+        cursor: pointer;
+    }
+
+    .franja__img{
+        background-image: url("../img/3.\ franjaninios.svg");
+        background-color: #2CA3AB;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height:40px;
+    }
+
+    .compartido{
+        display: flex;
+        padding: 2rem 2rem;
+        background-image: linear-gradient(rgba(255, 255, 255, 0.830), rgba(255, 255, 255, 0.830)),url("../img/4.\ covid.jpeg");
+        background-size:cover;
+        background-repeat: no-repeat;
+        flex-direction: column;
+    }
+
+    .cuadro1{
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(11, 87, 149);
+        width: 25rem;
+    }
+
+    .flecha{
+        width: 30px;
+        height: 30px;
+    }
+
+    .cuadro1 ul li{
+        margin: 1rem 5rem;
+        font-size: 15px;
+        font-weight: 200;
+        list-style: none;
+        vertical-align: center;
+    }
+
+            .fa-checkMargin{
+                margin: 0.5rem 1rem;
+                color: rgb(177, 0, 0);
+            }
+
+    .cuadro2 h1{
+        font-size: 20px;
+        font-weight: 400;
+        color: rgb(11, 87, 149);
+    }
+
+    .question{
+        width: 30px;
+        height: 30px;
+    }
+
+    .cuadro2 p{
+        font-size: 15px;
+    }
+
+    .cuadro2 img{
+        width: 30%;
+        display:block;
+        margin:auto;
+    }
+
+    .cuadro2 a{
+        margin-left: 6.5rem;
+    }
+
+    .cuadro2 a:visited{
+        color: rgb(11, 87, 149);
+    }
+
+    .cuadro2 a:link{
+        color: rgb(11, 87, 149);
+    }
+
+    .footer{
+        background-color: rgb(51, 51, 51);
+        margin-bottom: 1rem;
+    }
+
+    .footer p{
+        background-color: rgb(10, 10, 36);
+        margin-bottom: 0.6rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        padding: 0.5rem;
+        font-size: 12px;
+    }
+
+    .footer a{
+        text-decoration: none;
+        color: var(--white-color);
+    }
+
+    footer h6{
+        background-color: #000000;
+        text-align: center;
+        color: #ffffff;
+    }
+
+@media screen and (min-width: 768px) {
+    .boton1{
+        display: flex;
+        grid-area: item4;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header{
+        grid-template-areas: 
+        "item1 item2"  
+        "item5 item5"  
+        "item3 item4";
+    }
+        
+    .iniciar1{
+        display: flex;
+        align-items: center;
+        width: 9.5rem;
+        height: 2rem;
+        background-color: var(--spacecadet-color);
+        margin:  2rem;
+        margin-right: 3rem;
+        padding-top: 1px;
+        padding-left: 12px;
+        border-style: none;
+        border-radius: 15rem;
+        text-align: center;
+        cursor: pointer;
+        transition-duration: 0.1s;
+    }
+
+    /*.telefono p{
+        font-size: 14px;    
+    }
+
+    .ubicacion p{  
+        font-size: 14px;
+        width: 20rem;
+    }*/
+
+    .banner{    
+        height: 220px;;
+        padding: 3rem ;    
+    }
+
+    .banner__in{
+        display: flex;
+    }
+    
+    .banner__in h2{
+        letter-spacing: -2px;
+        padding-left: 2rem;
+        width: 20rem;
+        text-align: center;
+    }
+        
+    .banner__in h1{        
+        font-weight: 400;
+        padding: 0 9rem;
+        margin-top: 1vw;
+    }
+           
+    .compartido{
+        padding: 2rem 7rem;
+    }
+    
+    .cuadro1 h1{
+        font-size: 25px;
+    }
+        
+    .cuadro1 ul li{
+        font-size: 18px;
+    }
+    
+    .cuadro2 h1{
+        font-size: 25px;
+    }
+    
+    .cuadro2 p{
+        font-size: 18px;
+    }
+
+    .iniciar2{        
+        width: 150px;    
+        margin-top: 2rem;
+        margin-left: 8rem;    
+    }
+
+    .iniciar2 i{
+        padding: 1px 8px;    
+    }
+        
+    .iniciar2 a{
+        margin:20px 0;
+        text-decoration: none;
+        color: #ffffff;
+        text-align: center;
+        font-size: 16px;
+        }
+
+    .footer p{
+        font-size: 14px;    
+    }
+    
+    .franja__img{
+        height:70px;
+    }   
+    
+}
+    
+    /*--------------------- | RESOLUCIÓN MEDIA | ---------------------*/
+@media screen and (min-width: 1024px) {
+       
+    /*.telefono p{  
+        font-size: 16px;
+    }
+    
+    .ubicacion p{  
+        font-size: 16px;
+        width: 20rem;
+    }*/
+
+    .banner{       
+        height:320px;
+        padding: 6rem 1rem 1rem 5rem;    
+    }
+    
+    .banner__in h1{
+        font-size:50px;
+        font-weight: 400;
+        padding: 0 12rem;
+        margin-top: 2px;
+    }
+           
+        .banner__in h2{
+            font-size:40px;
+            width: 40rem;
+        } 
+        
+        .iniciar2{            
+            width: 150px;    
+            margin-top: 2rem;
+            margin-left: 10rem;    
+        }
+        
+        .compartido{    
+            flex-direction: row;
+        }
+
+        .cuadro1{
+            width: 60%;
+        }
+
+        .cuadro2{
+        width: 50%;
+        }
+
+    .footer p{
+        font-size: 16px;
+    }
+}
+    
+    /*--------------------- | RESOLUCIÓN MACRO | ---------------------*/
+@media screen and (min-width: 1200px) {
+    .header{
+        grid-template-columns: 1.5fr 1fr 1fr ;
+        grid-template-areas: 
+        "item6 item1 item2 item4"  
+        "item3 item5 item5 item5";
+    }
+}
+    
+    
