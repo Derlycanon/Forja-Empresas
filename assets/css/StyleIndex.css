@@ -61,7 +61,16 @@ p{
         justify-content: center;
         align-items: center;
         margin: 1rem;
+        animation-name: forja;
+        animation-duration: 5s;
+        position: relative;
     }
+
+            @keyframes forja {
+                0% {left: 0;top:0px;}
+                25%{left: 90px; top: 0px;}
+                50% {left: 60px; top: 120px}
+            }
 
     .linea{
         grid-area: item5;
@@ -317,7 +326,8 @@ p{
         grid-template-areas: 
         "item1 item2"  
         "item5 item5"  
-        "item3 item4";
+        "item3 item3"
+        "item4 item4";
     }
         
     .iniciar1{
