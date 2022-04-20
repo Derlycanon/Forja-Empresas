@@ -88,6 +88,7 @@ p{
         color: var(--white-color);
         font-size: 12px;
         transition-duration: 0.1s;
+        font-family: 'Poppins', sans-serif;
     }
 
     .iniciar1 i{
@@ -181,6 +182,8 @@ p{
         text-align: center;
         cursor: pointer;
         transition-duration: 0.1s;
+        color: var(--white-color);
+        font-family: 'Poppins', sans-serif;
     }
 
     .iniciar2 i{
@@ -350,6 +353,7 @@ p{
 
     .banner__in{
         display: flex;
+        flex-direction: column;
     }
     
     .banner__in h2{
@@ -386,10 +390,10 @@ p{
         font-size: 18px;
     }
 
-    .iniciar2{        
+    .iniciar2{    
         width: 150px;    
         margin-top: 2rem;
-        margin-left: 8rem;    
+        margin-left: 8rem;
     }
 
     .iniciar2 i{
@@ -443,7 +447,7 @@ p{
             width: 40rem;
         } 
         
-        .iniciar2{            
+        .iniciar2{        
             width: 150px;    
             margin-top: 2rem;
             margin-left: 10rem;    
@@ -461,9 +465,9 @@ p{
         width: 50%;
         }
 
-    .footer p{
-        font-size: 16px;
-    }
+        .footer p{
+            font-size: 16px;
+        }
 }
     
     /*--------------------- | RESOLUCIÓN MACRO | ---------------------*/
@@ -484,6 +488,10 @@ p{
 
     }
 
+    .iniciar2{
+        position: relative;
+        
+    }
 }
     
     
