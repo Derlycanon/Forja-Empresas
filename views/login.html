@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-
     <link rel="stylesheet" href="../assets/css/Stylelogin.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+    <title>Login</title>
     <link rel="icon" href="../assets/img/icon.png">
 
 </head>
 
 <header>
     <div class="boton1">
-        <button class="Volver" href="../index.html">Volver al inicio</button>
+        <button class="Volver"> <a href="../index.html">Volver al inicio </a> </button>
     </div>
 </header>
 
@@ -21,14 +22,21 @@
 <body background="../assets/img/10.png">
     <section class="form-login">
         <img src="../assets/img/0. logoforja.png"> <p>Contigo, siempre!</p>
-        <label for="Form" class="user">Usuario</label>
-        <input class="controls" type="text" name="Usuario" required>
-        <label for="Form" class="pass">Contraseña</label>
-        <input class="controls" type="password" name="Contraseña" required>
+        <label for="usuario" class="user">Usuario</label>
+        <input class="controls" type="text" id="user" name="user" required="required">
+        <label for="Contraseña" class="pass">Contraseña</label>
+        <input class="controls" type="password" name="Contraseña" required="required" id="pass">
         <p><a href="#">¿Olvidaste tu Contraseña?</a></p>
-        <input class="buttons" type="submit" name="Ingresar" value="Ingresar" href="./dashboard.html">
-        
-
+        <input class="ingresa" type="button" value="Ingresar" id="bingresa">Ingresar</input>
     </section>
+
+    <div id="modal_primary">
+        <h2>Error de credenciales</h2>
+        <p>Por favor rectificar</p>
+        <button id="mpBoton"> OK </button>
+    </div>
    
+    <script src="../assets/js/login.js"></script>
 </body>
+
+</html>

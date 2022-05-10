@@ -81,7 +81,7 @@
     padding-left: 105px;
 }
 
-.buttons{
+.ingresa{
     width: 35%;
     height: 10%;
     background: rgb(236, 132, 12);
@@ -95,6 +95,14 @@
     left: 26%;
     transform: translate(90%);
     cursor: pointer; 
+}
+
+.ingresa a{
+    text-align: center;
+    font-weight: 800;
+    text-decoration: none;
+    color:white;
+  
 }
 
 .form-login p{

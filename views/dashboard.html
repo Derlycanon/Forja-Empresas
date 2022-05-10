@@ -4,51 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5e8f2c7b17.js" crossorigin="anonymous"></script>
     <title>Dashboard</title>
-
     <link rel="stylesheet" href="../assets/css/Styledashboard.css">
     <link rel="icon" href="../assets/img/icon.png">
 
-</head>
+    <body>
 
-<body>
-    <header>
-        <div class="logo">
-            <img src="../assets/img/0. logoforja.png">
-        </div>
-        <div class="sesion">
-            <img src="../assets/img/16. man-user.svg">
-            <span>
-                <strong>Derly Cañón</strong>
-                <i class="fa-solid fa-right-from-bracket"></i>
-            </span>
-        </div>
-    </header>
-
-    <section id="dashboard">
-        <article class="menu1">
-            <ul>
-                <button class="pacientes">Pacientes</button>
-                <button class="pacientes">Vacunación</button>
-                <button class="pacientes">Cerrar sesión</button>
-            </ul>
-        </article>
-        <article class="contenido">
-            <p>
-                <label for="Form" class="user">BIENVENIDOS</label> <br>
-                <input class="bienvenidos" type="text" name="BIENVENIDOS" placeholder="Digite el número de documento" >
-            </p>
-
-            <div class="img__guerreros">
-                <img src="../assets/img/13. guerreros.png">
+        <section id="dashboard">
+    
+    
+            <div class="cajadash">
+                <div class="imgdash"> <img src="img/logoforja.png"></div>
+                <article class="dashmenu">
+                    <ul>
+                        <li class="dashitem"><a href="paciente.html"><i class="fa-solid fa-users">
+                                    <h4>Pacientes</h4>
+                                </i></a></li>
+                        <li class="dashitem"><a href="index.html"><i class="fa-solid fa-syringe">
+                                    <h4>Vacunacion</h4>
+                                </i></a></li>
+                        <li class="dashitem"><a href="index.html"><i class="fa-solid fa-power-off">
+                                    <h4>Cerrar Sesion</h4>
+                                </i></a></li>
+                    </ul>
+    
+                </article>
             </div>
-
-            <div class="img__franja">
-                <img src="../assets/img/12. franja.png">
-            </div> 
-        </article>
-    </section>
-
-
-
-</body>
+    
+            <div class="dashcontenido">
+                <div class="perfil">
+                    <div class="iconoperfil"><i class="fa-solid fa-circle-user fa-2x"></i></div>
+                    <div>
+                        <P>Carolina Loaiza</P>
+                    </div>
+                </div>
+                <div class="titulocontenido">
+                    <h1>BIENVENIDOS</h1>
+                </div>
+    
+                <div class="form3">
+                    <form method="" action="" id="formConsul">
+                        <div class=" input1">
+                            
+                            <input type="number" name="consulta" id="consulta"
+                                placeholder="Digite el numero del Documento">
+    
+                            <button type="submit" class="btnSummit"><a href="alert.html"><i class="fa-solid fa-magnifying-glass"></i></a></i></button>
+                            <button><i class="fa-solid fa-arrow-rotate-right"></i></button>
+                        </div>
+                    </form>
+    
+                    <div class="guerreros"><img src="img/guerreros.png"></div>
+               
+    
+                </div>
+                <div class="franja2"></div>
+        </section>
+       
+        <script src="js/script.js"></script>
+    </body>
+    
+    </html>
