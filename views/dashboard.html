@@ -4,27 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/Styledashboard.css">
     <script src="https://kit.fontawesome.com/5e8f2c7b17.js" crossorigin="anonymous"></script>
     <title>Dashboard</title>
-    <link rel="stylesheet" href="../assets/css/Styledashboard.css">
+    
     <link rel="icon" href="../assets/img/icon.png">
+</head>
 
     <body>
 
         <section id="dashboard">
-    
-    
             <div class="cajadash">
-                <div class="imgdash"> <img src="img/logoforja.png"></div>
+                <div class="imgdash"> <img src="../assets/img/0. logoforja.png"></div>
                 <article class="dashmenu">
                     <ul>
-                        <li class="dashitem"><a href="paciente.html"><i class="fa-solid fa-users">
+                        <li class="dashitem"><a href="pacientes.html"><i class="fa-solid fa-users">
                                     <h4>Pacientes</h4>
                                 </i></a></li>
-                        <li class="dashitem"><a href="index.html"><i class="fa-solid fa-syringe">
-                                    <h4>Vacunacion</h4>
+                        <li class="dashitem"><a href="../index.html"><i class="fa-solid fa-syringe">
+                                    <h4>Vacunación</h4>
                                 </i></a></li>
-                        <li class="dashitem"><a href="index.html"><i class="fa-solid fa-power-off">
+                        <li class="dashitem"><a href="../index.html"><i class="fa-solid fa-power-off">
                                     <h4>Cerrar Sesion</h4>
                                 </i></a></li>
                     </ul>
@@ -47,22 +47,77 @@
                     <form method="" action="" id="formConsul">
                         <div class=" input1">
                             
-                            <input type="number" name="consulta" id="consulta"
-                                placeholder="Digite el numero del Documento">
+                            <input type="number" name="consulta" id="consulta"placeholder="Digite el número del Documento">
     
-                            <button type="submit" class="btnSummit"><a href="alert.html"><i class="fa-solid fa-magnifying-glass"></i></a></i></button>
+                            <button type="submit" class="btnSummit"><i class="fa-solid fa-magnifying-glass"></i></button>
                             <button><i class="fa-solid fa-arrow-rotate-right"></i></button>
                         </div>
                     </form>
     
-                    <div class="guerreros"><img src="img/guerreros.png"></div>
+                    <div class="guerreros">
+                        <img src="../assets/img/13. guerreros.png">
+                    </div>
                
-    
                 </div>
+
                 <div class="franja2"></div>
         </section>
+
+            <div class="modals" id="userOne">
+                <div class="info">
+                    <h4>EL PACIENTE **795 TIENE SOLO UNA DOSIS<br><br>
+                        Vacuna: Johnson<br>
+                        Fecha:16/05/2021<br><br>
+                        ¿Desea registrar la
+                        segunda dosis?</h4><br>
+                </div>
+                <div>
+                    <button class="continuar" id="continuar"> Continuar </button>
+                    <button class="bCancelar"><a href="dashboard.html"> Cancelar </a></button>
+                </div>
+            
+            </div>
+            
+            <div class="modals" id="userTwo">
+                <div class="info">
+                    <h4>EL PACIENTE **478 TIENE DOS DOSIS<br><br>
+                        Vacuna: Pfizer<br>
+                        Fecha 1.14/03/2021<br><br>
+                        Vacuna: Pfizer<br>
+                        Fecha 2.15/07/2021<br><br>
+                        ¿Desea registrar la tercera dosis?</h4>
+                </div>
+                <div>
+                    <button class="continuar" id="continuar"> Continuar </button>
+                    <button class="bCancelar"><a href="dashboard.html"> Cancelar </a></button>
+                </div>
+            
+            </div>
+            <div class="modals" id="userThree">
+                <div class="info">
+                    <h4>EL PACIENTE **574 TIENE EL ESQUEMA COMPLETO DE VACUNACIÓN<br><br>
+                        Vacuna: Sinovac<br>Fecha 1: 12/03/2021<br><br>
+                        Vacuna: Sinovac<br>Fecha2: 5/12/2021<br><br>
+                        Vacuna: Moderna<br>Fecha 3: 06/06/2022</h4>
+                </div>
+                <div>
+                    <button class="bCancelar"><a href="dashboard.html"> Cancelar </a></button>
+                </div>
+            
+            </div>
+            
+            <div class="modals" id="userFour">
+                <div class="info">
+                    <h2>PACIENTE **506 NO ESTÁ REGISTRADO<br><br>
+                        ¿Desea realizar el registro?</h2><br>
+                </div>
+                <div>
+                    <button class="continuar"><a href="registro.html"> Continuar </a></button>
+                    <button class="bCancelar"><a href="dashboard.html"> Cancelar </a></button>
+                </div>    
+            </div>
        
-        <script src="js/script.js"></script>
+        <script src="../assets/js/login.js"></script>
     </body>
     
     </html>
