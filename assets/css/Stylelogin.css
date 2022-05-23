@@ -21,6 +21,7 @@
     font-family: 'Poppins', sans-serif;  
     top: 50%;
     left: 26%;
+    text-decoration: none;
     transform: translate(290%);
     cursor: pointer; 
 }

@@ -4,137 +4,206 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro Usuarios</title>
-
+    <title>Registro Usuarios Nuevos</title>
+    <script src="https://kit.fontawesome.com/5e8f2c7b17.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../assets/css/registro.css">
     <link rel="icon" href="../assets/img/icon.png">
 
 </head>
 
-<header class="header">
-    <div class="logo">
-        <img class="img__logo" src="../assets/img/0. logoforja.png" alt=" logo Forja">
-        <img class="img__franja" src="../assets/img/12. franja.png">
-    </div>  
-</header>
-
 <body>
-    <div class="tittle">
-        <p>REGISTRO USUARIO NUEVO</p>
+    <header id=hpaciente>
+        <div>
+            <img src="../assets/img/0. logoforja.png">
+        </div>
+        <div class="pacienteboton">
+            <button><a href="dashboard.html"><i class="fa-solid fa-house-user"></i></a></button>
+            <button><a href="../index.html"><i class="fa-solid fa-power-off"></i></a></button>
+        </div>
+    </header>
+
+    <div class="franjapaciente">
+        <img src="../assets/img/12. franja.png">
     </div>
-    <table>
-        <table class="t__registro" border="1px" bgcolor="white" cellspacing="5" cellpadding="5">
-            <tr>
-                <th <label for="date"></label>
-                <input type="date" name="date" id="date" min="2000-01-01"  max="2023-01-01" placeholder="dd/mm/aaaa"></th>
-                <th ><input name="nombre" id="nombre" type="text" placeholder="N registro" size="20" autocomplete="on"></th>
+    <div class="tregistro">
+
+
+
+        <h1>REGISTRO USUARIO NUEVO</h1>
+    </div>
+
+    <section class="cajaformulario">
+
+        <div class="f1">
+            <form>
+                <input type="date" placeholder="Fecha de registro" required>
+                <input type="text" placeholder="N° registro" required>
             
-            </tr>
+        </div>
 
-            <tr>
-                <th bgcolor="#2CA3AB" colspan="2"> DATOS DEL PACIENTE </th>
-            </tr>
+        <div class="subdatos">
+            <label><i class="fa-solid fa-user"></i>DATOS DEL PACIENTE</label>
+        </div>
 
-            <tr>
-                <th ><input name="nombre" id="nombre" type="text" placeholder="Escribe tu nombre" size="30" autocomplete="on"></th>
-
-                <th ><input name="apellidos" id="apellidos" type="text" placeholder="Apellidos" size="20" autocomplete="on"></th>
-            </tr>
-
-            <tr>
-                <th ><input name="nombre" id="nombre" type="text" placeholder="Número de identificación" size="30" autocomplete="on"></th>
-
-                <th >
-                    <select name="documento" id="documento">
-                        <option value="0" selected> Tipo de documento </option>
-                        <option value="1">Cédula de ciudadania</option>
-                        <option value="1">Cédula Extranjería</option>
-                        <option value="1">Otro</option>            
-                    </select> 
-                </th>
-            </tr>
-
-            <tr>
-                <th <label for="date"></label>
-                    <input type="date" name="date" id="date" min="2000-01-01"  max="2023-01-01" placeholder="dd/mm/aaaa"></th>
-
-                <th ><input name="nombre" id="nombre" type="text" placeholder="Edad" size="20" autocomplete="on"></th>
-            </tr>
+        <div>
+         
+                <div class="datospaciente1">
+                    <input type="text" placeholder="Escribe tu nombre" required>
+                    <input type="text" placeholder="Apellidos" required>
+                </div>
 
 
-            <tr>
-                <th bgcolor="#2CA3AB"colspan="2"> INFORMACIÓN DE CONTACTO </th>
-            </tr>
+                <div class="datospaciente1">
+                    <input type="text" placeholder="Numero de documento" required>
+                    <select name="documento" id="documento" required>
+                        <option value="0" selected>Tipo de documento</option>
+                        <option value="1">Cedula de ciudadania</option>
+                        <option value="2">Tarjeta de identidad</option>
+                        <option value="3">Permiso de permanencia</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="date" placeholder="Fecha de registro" required>
+                    <input type="number" placeholder="Edad" required>
+                </div>
+            
+        </div>
 
-            <tr>
-                <th >
-                    <select name="departamento" id="departamento">
-                        <option value="0" selected> Departamento de Residencia </option>
-                        <option value="1">Cundinamarca</option>
-                        <option value="1">Antioquia</option>
-                        <option value="1">Valle del Cauca</option>
-                        <option value="1">Santander</option>                
-                
-                    </select> 
-                </th>
+        <div class="subdatos">
+            <label><i class="fa-solid fa-location-dot"></i>INFORMACION DEL CONTACTO</label>
+        </div>
 
-                <th >
-                    <select name="municipio" id="municipio">
-                        <option value="0" selected> Municipio de Residencia </option>
-                        <option value="1">Agua de Dios</option>
-                        <option value="1">Bello</option>
-                        <option value="1">Yumbo</option>
-                        <option value="1">Floridablanca</option>                
-                
-                    </select> 
-                </th>
-            </tr>
+        <div class="datospaciente3">
 
-            <tr>
-                <th ><input name="direccion" id="direccion" type="text" placeholder="Dirección" size="30" autocomplete="on"></th>
+            <div>
+              
 
-                <th ><input name="email" id="email" type="email" placeholder="Correo" size="20" autocomplete="on"></th>
-            </tr>
+                    <select class="form-control" id="departamento" name="departamento" required>
+                        <option value="">Departamento de Recidencia</option>
+                        <option value="Amazonas">Amazonas</option>
+                        <option value="Antioquia">Antioquia</option>
+                        <option value="Arauca">Arauca</option>
+                        <option value="Atlántico">Atlántico</option>
+                        <option value="Bolívar">Bolívar</option>
+                        <option value="Boyacá">Boyacá</option>
+                        <option value="Caldas">Caldas</option>
+                        <option value="Caquetá">Caquetá</option>
+                        <option value="Casanare">Casanare</option>
+                        <option value="Cauca">Cauca</option>
+                        <option value="Cesar">Cesar</option>
+                        <option value="Chocó">Chocó</option>
+                        <option value="Córdoba">Córdoba</option>
+                        <option value="Cundinamarca">Cundinamarca</option>
+                        <option value="Guainía">Guainía</option>
+                        <option value="Guaviare">Guaviare</option>
+                        <option value="Huila">Huila</option>
+                        <option value="La Guajira">La Guajira</option>
+                        <option value="Magdalena">Magdalena</option>
+                        <option value="Meta">Meta</option>
+                        <option value="Nariño">Nariño</option>
+                        <option value="Norte de Santander">Norte de Santander</option>
+                        <option value="Putumayo">Putumayo</option>
+                        <option value="Quindío">Quindío</option>
+                        <option value="Risaralda">Risaralda</option>
+                        <option value="San Andrés y Providencia">San Andrés y Providencia</option>
+                        <option value="Santander">Santander</option>
+                        <option value="Sucre">Sucre</option>
+                        <option value="Tolima">Tolima</option>
+                        <option value="Valle del Cauca">Valle del Cauca</option>
+                        <option value="Vaupés">Vaupés</option>
+                        <option value="Vichada">Vichada</option>
+                    </select>
+            </div>
+            <div>
 
-            <tr>
-                <th ><input name="telefono" id="telefono" type="number" placeholder="Teléfono fijo" size="30" autocomplete="on"></th>
+                <select class="form-control" id="city" required>
+                    <option value="">Municipio de recidencia</option>
+                    <option value="Abejorral">Abejorral</option>
+                    <option value="Abrego">Abrego</option>
 
-                <th ><input name="celular" id="celular" type="number" placeholder="Celular" size="20" autocomplete="on"></th>
-            </tr>
+                    <option value="Villavieja">Villavieja</option>
+                    <option value="Villeta">Villeta</option>
+                    <option value="Viotá">Viotá</option>
+                    <option value="Viracachá">Viracachá</option>
+                    <option value="Vistahermosa">Vistahermosa</option>
+
+                    <option value="Zaragoza">Zaragoza</option>
+                    <option value="Zarzal">Zarzal</option>
+                    <option value="Zetaquira">Zetaquira</option>
+                    <option value="Zipacón">Zipacón</option>
+                    <option value="Zipaquirá">Zipaquirá</option>
+                    <option value="Zona Bananera">Zona Bananera</option>
+                </select>
+            </div>
+   
+        </div>
 
 
-            <tr>
-                <th bgcolor="#2CA3AB" colspan="3"> ESTADO DE SALUD </th>
-            </tr>
+        <div class="datospaciente1">
+     <div>
+                <input type="text" placeholder="Direccion" required>
+                <input type="email" placeholder="Correo" required>
+            </div>
+        </div>
+        <div>
+            
+                <input type="text" placeholder="Telefono fijo" required>
+                <input type="text" placeholder="Celular" required>
+    
+        </div>
 
-            <tr>
-                <th >
-                    <select name="salud" id="salud">
-                        <option value="0" selected> Preexistencias </option>
-                        <option value="1">Cundinamarca</option>
-                        <option value="1">Antioquia</option>
-                        <option value="1">Valle del Cauca</option>
-                        <option value="1">Santander</option>                
-                
-                    </select> 
-                </th>
+        <div class="subdatos">
+            <label><i class="fa-solid fa-heart-pulse"></i>ESTADO DE SALUD</labeL>
+        </div>
+        <div>
+            <select name="enfermedad" id="enfermedad" required>
+                <option value="0" selected>Preexistencias</option>
+                <option value="1">Hipertension</option>
+                <option value="2">Diabetes</option>
+                <option value="3">EPO</option>
+            </select>
+            <select name="discapacidad" id="discapacidad" required>
+                <option value="0" selected>discapacidad</option>
+                <option value="1">SI</option>
+                <option value="2">NO</option>
+            </select>
+            <input type="text" placeholder="Alergias" required>
 
-                <th >
-                    <select name="discapacidad" id="discapacidad">
-                        <option value="0" selected> Discapacidad </option>
-                        <option value="1">Agua de Dios</option>
-                        <option value="1">Bello</option>
-                        <option value="1">Yumbo</option>
-                        <option value="1">Floridablanca</option>                         
-                    </select> 
-                </th>       
-            </tr>
-        </table>
-    </table>
+        </div>
+
+        <div>
+            <div>
+                <label for="prueba">¿El paciente se ha realizado la prueba del covid y esta ha sido positiva?</label>
+            </div>
+            <div class="radio">
+                <input name="prueba" id="prueba" type="radio" required>SI
+                <input name="prueba" id="prueba" type="radio" required>NO
+            </div>
+        </div>
+
+        <div>
+    
+                <div>
+                    <label for="con">¿El paciente ha tenido contacto con una persona confirmada o sopechosa COVID-19 en
+                        los ultimos
+                        14
+                        dias?</label>
+                </div>
+                <div class="radio">
+                    <input name="prueba" id="prueba" type="radio" required>SI
+                    <input name="prueba" id="prueba" type="radio" required>NO
+                </div>
+       
+        </div>
+
+    </section>
+    <center><input class="botonguardar" type="submit"></center>
+</form>
+    <footer class="footerindex">
+        <p>FORJA EMPRESAS 2022</p>
+    </footer>
+    </div>
+
 </body>
-
-<footer class="footer">
-    <p>2022 FORJAEMPRESAS</p>
-</footer>
 
 </html>

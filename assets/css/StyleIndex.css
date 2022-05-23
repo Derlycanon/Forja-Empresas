@@ -95,7 +95,7 @@ p{
         text-align: center;
         cursor: pointer;
         color: var(--white-color);
-        font-size: 12px;
+        font-size: 14px;
         transition-duration: 0.1s;
         font-family: 'Poppins', sans-serif;
     }
@@ -103,6 +103,7 @@ p{
     .iniciar1 i{
         padding: 1px 5px;
         color: var(--white-color);
+        font-size: 14px;
     }
 
     .iniciar1 a{
@@ -111,6 +112,7 @@ p{
         text-decoration: none;
         color: #ffffff;
         text-align: center;
+        font-size: 14px;
     }
 
     .iniciar1:hover{
@@ -193,11 +195,13 @@ p{
         transition-duration: 0.1s;
         color: var(--white-color);
         font-family: 'Poppins', sans-serif;
+        font-size: 12px;
     }
 
     .iniciar2 i{
         padding: 1px 8px;
         color: var(--white-color);
+        font-size: 12px;
     }
 
     .iniciar2 a{
